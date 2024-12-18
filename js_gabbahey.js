@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener("DOMContentLoaded", function() {
     var isHomepage = window.location.pathname === "/" || 
                      window.location.pathname === "/index.html" || 
@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var customNewFooter = document.createElement("div");
     customNewFooter.classList.add("custom-unique-footer");
@@ -141,9 +141,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     observer.observe(customNewFooter);
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var searchFormContainer = document.createElement("div");
     searchFormContainer.id = "search-form-container";
@@ -230,9 +230,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     function styleButtons() {
         var filterButton = document.querySelector('.btn.dropdown-toggle.input-select.product-section__filter-button');
@@ -281,9 +281,9 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(target, config);
     }
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var imgCol = document.querySelector('.product-detail-img-col');
     var maxMarginTop = 350;
@@ -304,9 +304,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var cabecalhoPrincipal = document.createElement("div");
     cabecalhoPrincipal.classList.add("cabecalho-principal");
@@ -523,9 +523,9 @@ document.addEventListener("DOMContentLoaded", function() {
     enfeiteCabecalho.style.opacity = "1";
     enfeiteCabecalho.style.display = "block";
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     function updateProductNames() {
         var productNames = document.querySelectorAll('.product-card .product-card__stats .product_name');
@@ -550,9 +550,9 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(target, config);
     }
 });
-</script>
 
-<script>
+
+
 document.addEventListener("DOMContentLoaded", function() {
     function updatePrices() {
         var prices = document.querySelectorAll('.product__price--final, .product__price--variant');
@@ -588,4 +588,3 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(target, config);
     }
 });
-</script>
