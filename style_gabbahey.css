@@ -994,4 +994,8 @@ body, html {
 .cookieConsentContainer .cookieContainer {
     color: #fff !important;
 }
+
+[data-loja]>header {
+    display: none;
+}
 </style>
