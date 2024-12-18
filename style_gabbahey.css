@@ -996,6 +996,6 @@ body, html {
 }
 
 [data-loja]>header {
-    display: none;
+    display: none !important;
 }
 </style>
