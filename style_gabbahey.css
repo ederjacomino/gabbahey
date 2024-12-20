@@ -998,4 +998,27 @@ body, html {
 [data-loja]>header {
     display: none !important;
 }
+
+@media (max-width: 768px) { 
+  .custom-unique-footer-pagamento-img-esquerda {
+        width:50%;
+    }
+}
+
+@media (max-width: 768px) { 
+  .custom-unique-footer {
+        height: 955px;
+    }
+}
+
+@media (max-width: 768px) { 
+  .bottom-bar-menu {
+    gap: 4px;
+    font-size: 16px;
+    flex-direction: column;
+    margin-top: 116px;
+    padding-bottom: 15px;
+}
+    }
+	
 </style>
