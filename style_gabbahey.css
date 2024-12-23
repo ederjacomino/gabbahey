@@ -203,6 +203,29 @@ body, button, input, h1, h2, h3, h4, h5, h6, small, strong {
     height: 16px; 
 }
 
+/* Estilos para o modo desktop */
+@media (min-width: 1024px) {
+    .icone-menu {
+        opacity: 0.5;
+        pointer-events: none; /* Desativa interações */
+        cursor: default; /* Remove o dedinho ao passar o mouse */
+    }
+
+    .icone-menu a:hover img {
+        opacity: 0.5; /* Remove o efeito de hover */
+    }
+}
+
+/* Estilos para o modo mobile */
+@media (max-width: 1023px) {
+    .icone-menu {
+        opacity: 1; /* Ativa o ícone do menu */
+        pointer-events: auto; /* Permite interações */
+        cursor: pointer; /* Mantém o dedinho ao passar o mouse */
+    }
+}
+
+
 .icone-lupa img { 
     width: 18px; 
     height: 20px; 
