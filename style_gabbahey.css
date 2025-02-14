@@ -3,7 +3,7 @@ header[data-edit="cabecalhoColor"] {
     display: none !important; 
 }
 
-#carouselMontink {
+/* #carouselMontink {
     display: none !important;
 }
 
@@ -24,7 +24,7 @@ header[data-edit="cabecalhoColor"] {
     justify-content: center; 
     margin: 0 auto; 
     padding: 0; 
-}
+} */
 
 .product-card.animate .image_overlay { 
     opacity: 0.4; 
