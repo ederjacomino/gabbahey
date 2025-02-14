@@ -3,28 +3,24 @@ header[data-edit="cabecalhoColor"] {
     display: none !important; 
 }
 
-/* #carouselMontink {
-    display: none !important;
-}
-
-#carouselMontink.carousel {
-    display: none !important;
-}
-
 .js-carousel--simple { 
-    display: none; 
+    display: table; 
     align-items: center; 
     height: 100px; 
 }
 
-.glider-dots { 
-    user-select: none; 
-    display: none; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    margin: 0 auto; 
-    padding: 0; 
-} */
+.glider-track {
+    transform: translateZ(0);
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    z-index: 1;
+}
+
+.c-carousel__slide {
+    padding: 0 !important;
+}
 
 .product-card.animate .image_overlay { 
     opacity: 0.4; 
