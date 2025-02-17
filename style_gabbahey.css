@@ -3,6 +3,22 @@ header[data-edit="cabecalhoColor"] {
     display: none !important; 
 }
 
+.glider-slide {
+    min-width: 175px !important;
+}
+
+@media (max-width: 1140px) { 
+  .glider-slide {
+    min-width: 130px !important;
+   }
+}
+
+@media (max-width: 850px) { 
+  .glider-slide {
+    min-width: 116px !important;
+   }
+}
+
 .js-carousel--simple { 
     display: table; 
     align-items: center; 
