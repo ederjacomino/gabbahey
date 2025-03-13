@@ -457,6 +457,7 @@ input.campoCep {
     float: left;
     border-right: 0;
     font-size: 15px !important;
+	color: black !important;
 }
 
 button.btCalc { 
